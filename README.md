@@ -34,10 +34,10 @@ The workflow of this project is as follows:
 5. The ETL pipeline ensures the data is consistently updated for analysis.
 
 # Technology Used
-Apache Airflow
-Python
-OpenWeatherMap API
-AWS S3
+- Apache Airflow
+- Python
+- OpenWeatherMap API
+- AWS S3
 
 # Conclusion
 This project showcases an efficient ETL pipeline that automates the collection, transformation, and storage of weather data. It ensures data consistency and accessibility, making it a valuable asset for various weather-related applications and analyses. Feel free to contribute or adapt this project to your specific needs.
