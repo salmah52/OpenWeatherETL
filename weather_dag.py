@@ -44,7 +44,7 @@ def transform_load_data(task_instance):
     transformed_data_list = [transformed_data]
     df_data = pd.DataFrame(transformed_data_list)
 
-    aws_credentials = {"key": "ASIA2DEQITH3FNDH4F43", "secret": "WzbYOKveAhe90aTWEhTCHnmeXsRU9kBVblG8LOUT", "token": "FwoGZXIvYXdzEJb//////////wEaDAK7FG8z6wMyzUXR7yJqoTFYtEzu9C1Rv5SR4C06Yfg7C5XiMI0FTpLChm9/ZFX2MxhnK+OTOLtNDJ7zF1fdgexchSI7Y9Iq3vLey31rl0QDw2RuXUEOZDYEt7sSYveiSw0Sl9VLqQM5wHCepqduHP2NtBrdLOyWqyiputynBjIo1gQSXaxuwfwlH5Y2480u3ka0ZtifDB+vBGr/C69/9mdHMonr3aZ3uQ=="}
+    aws_credentials = {"key": "", "secret": "", "token": ""}
 
     now = datetime.now()
     dt_string = now.strftime("%d%m%Y%H%M%S")
@@ -55,7 +55,7 @@ def transform_load_data(task_instance):
 
 # Define DAG default arguments
 default_args = {
-    'owner': 'airflow',
+    'owner': 'salmah09',
     'depends_on_past': False,
     'start_date': datetime(2023, 1, 8),
     'email': ['myemail@domain.com'],
